@@ -1,0 +1,10 @@
+<button (click) ="damePaisFetch()">ver paises</button>
+<table class="table table-bordered table-striped">
+    <tr *ngFor=" let pais of paises" class="text-center"><td>{{pais.capital[0]}}</td>
+    <td></td>  
+    <td *ngFor=" let frontera of pais.borders">{{frontera}}</td>
+    </tr>
+
+<!--america,europa,asia,africa y oceania -->
+
+</table>

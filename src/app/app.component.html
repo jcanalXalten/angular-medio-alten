@@ -1,0 +1,23 @@
+
+<div class="container">
+  <h1 [ngClass] ="{'text-danger':flag,'text-succes':!flag}"> {{title}}</h1>
+
+
+<br>
+<input type="text" [(ngModel)]="title"><br>
+<button (click) ="cambiar()">Cambiar</button> 
+<button (ver) ="ver()">Ver</button>
+<button (click) = cambiarFlag()>cambiar color</button>
+  <app-paises> </app-paises>
+
+</div>
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+
